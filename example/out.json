@@ -1,0 +1,139 @@
+{
+    "type": "DIR",
+    "name": "sdtree",
+    "path": "C:\\Users\\lilin\\Desktop\\sdtree",
+    "childs": [
+        {
+            "type": "FILE",
+            "name": ".gitignore",
+            "path": "C:\\Users\\lilin\\Desktop\\sdtree\\.gitignore",
+            "deep": 1
+        },
+        {
+            "type": "DIR",
+            "name": "commander",
+            "path": "C:\\Users\\lilin\\Desktop\\sdtree\\commander",
+            "deep": 1,
+            "childs": [
+                {
+                    "type": "FILE",
+                    "name": "index.js",
+                    "path": "C:\\Users\\lilin\\Desktop\\sdtree\\commander\\index.js",
+                    "deep": 2
+                }
+            ]
+        },
+        {
+            "type": "DIR",
+            "name": "example",
+            "path": "C:\\Users\\lilin\\Desktop\\sdtree\\example",
+            "deep": 1,
+            "childs": [
+                {
+                    "type": "FILE",
+                    "name": "test.js",
+                    "path": "C:\\Users\\lilin\\Desktop\\sdtree\\example\\test.js",
+                    "deep": 2
+                }
+            ]
+        },
+        {
+            "type": "FILE",
+            "name": "index.js",
+            "path": "C:\\Users\\lilin\\Desktop\\sdtree\\index.js",
+            "deep": 1
+        },
+        {
+            "type": "DIR",
+            "name": "modules",
+            "path": "C:\\Users\\lilin\\Desktop\\sdtree\\modules",
+            "deep": 1,
+            "childs": [
+                {
+                    "type": "DIR",
+                    "name": "default",
+                    "path": "C:\\Users\\lilin\\Desktop\\sdtree\\modules\\default",
+                    "deep": 2,
+                    "childs": [
+                        {
+                            "type": "FILE",
+                            "name": "index.js",
+                            "path": "C:\\Users\\lilin\\Desktop\\sdtree\\modules\\default\\index.js",
+                            "deep": 3
+                        },
+                        {
+                            "type": "DIR",
+                            "name": "lib",
+                            "path": "C:\\Users\\lilin\\Desktop\\sdtree\\modules\\default\\lib",
+                            "deep": 3,
+                            "childs": [
+                                {
+                                    "type": "FILE",
+                                    "name": "buildTreeString.js",
+                                    "path": "C:\\Users\\lilin\\Desktop\\sdtree\\modules\\default\\lib\\buildTreeString.js",
+                                    "deep": 4
+                                },
+                                {
+                                    "type": "FILE",
+                                    "name": "buildTreeStringAsyncScript.js",
+                                    "path": "C:\\Users\\lilin\\Desktop\\sdtree\\modules\\default\\lib\\buildTreeStringAsyncScript.js",
+                                    "deep": 4
+                                },
+                                {
+                                    "type": "FILE",
+                                    "name": "getDirTree.js",
+                                    "path": "C:\\Users\\lilin\\Desktop\\sdtree\\modules\\default\\lib\\getDirTree.js",
+                                    "deep": 4
+                                },
+                                {
+                                    "type": "FILE",
+                                    "name": "getDirTreeAsyncScript.js",
+                                    "path": "C:\\Users\\lilin\\Desktop\\sdtree\\modules\\default\\lib\\getDirTreeAsyncScript.js",
+                                    "deep": 4
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "FILE",
+            "name": "package-lock.json",
+            "path": "C:\\Users\\lilin\\Desktop\\sdtree\\package-lock.json",
+            "deep": 1
+        },
+        {
+            "type": "FILE",
+            "name": "package.json",
+            "path": "C:\\Users\\lilin\\Desktop\\sdtree\\package.json",
+            "deep": 1
+        },
+        {
+            "type": "FILE",
+            "name": "README.md",
+            "path": "C:\\Users\\lilin\\Desktop\\sdtree\\README.md",
+            "deep": 1
+        },
+        {
+            "type": "DIR",
+            "name": "utils",
+            "path": "C:\\Users\\lilin\\Desktop\\sdtree\\utils",
+            "deep": 1,
+            "childs": [
+                {
+                    "type": "FILE",
+                    "name": "asyncExec.js",
+                    "path": "C:\\Users\\lilin\\Desktop\\sdtree\\utils\\asyncExec.js",
+                    "deep": 2
+                },
+                {
+                    "type": "FILE",
+                    "name": "index.js",
+                    "path": "C:\\Users\\lilin\\Desktop\\sdtree\\utils\\index.js",
+                    "deep": 2
+                }
+            ]
+        }
+    ]
+}
