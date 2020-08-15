@@ -7,6 +7,6 @@ let tree = new Tree();
     tree.on("step", treeNode => {
         console.log(treeNode.name);
     });
-    const res = await tree.parse({dir: "../../sdtree", excludes: [".git", "node_modules"]});
+    const res = await tree.parse({dir: "../../sdtree", excludes: [".git", "node_modules"], depth: 1});
     fs.writeFileSync("./out.json", JSON.stringify(res, null, 4));
 }();
