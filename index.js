@@ -19,6 +19,7 @@ const Tree = require("./lib/Tree");
  *         file 参数同上
  *         data 参数同上
  *         done 无参数
+ *         auth <Scan.ScanNode>
  */
 nameSpace["Scan"] = Scan;
 
@@ -31,6 +32,7 @@ nameSpace["Scan"] = Scan;
  *         async parse(<Tree.defaultOptions>) Resolve(<Tree.TreeNode>)
  * 实例事件：
  *         step <Tree.TreeNode>
+ *         auth <Tree.TreeNode>
  * 静态属性: 
  *         Tree.TreeNode
  *         Tree.TreeEvent

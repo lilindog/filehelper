@@ -1,20 +1,25 @@
 const Scan = require("../lib/Scan");
-const path = require("path");
+const Tree = require("../lib/Tree");
 
-let scan = new Scan({dir: "../../../", authSkip: !true});
-scan.on("data", node => {
-    console.log(node.name);
-});
-scan.on("auth", node => {
-    console.log("无权限");
-    console.log(node);
-    setTimeout(() => {
-        console.log(">> 继续");
-        scan.resume();
-    }, 1000);
-});
-scan.on("done", () => {
-    console.log("!! 扫描 完啦");
-});
+// !async function () {
+//     let tree = new Tree({dir: "../../../"});
+//     tree.on("auth", node => {
+//         console.log(">> 么的权限");
+//         console.log(node);
+//         setTimeout(() => {
+//             tree.resume();
+//         }, 2000);
+//     });
+//     let treeNode = await tree.parse();
+// }();
 
-scan.parse();
+// const scan = new Scan({dir: "../../../", authSkip: false});
+// scan.on("auth", node => {
+//     console.log(">> 么的权限");
+//     console.log(node);
+//     setTimeout(() => {
+//         console.log("继续>>");
+//         scan.resume();
+//     }, 2000);
+// });
+// scan.parse();
